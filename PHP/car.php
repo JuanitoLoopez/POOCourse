@@ -8,15 +8,13 @@ class Car {
     public $driver;
     public $passenger;
 
-    public function __constructor($license, 
-            $driver) {
+    public function __constructor($license, $driver) {
         $this->license = $license;
         $this->driver = $driver;
     }
 
     public function printDataCar() {
-        echo "license: $license 
-            Driver: $(this.name)";
+        echo "License: $license Driver: " .$this->driver->name;
     }
 
 }
