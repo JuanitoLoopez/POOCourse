@@ -2,6 +2,7 @@ class Car {
     constructor(license, driver) {
         this.license = license;
         this.driver = driver;
+        this.passenger;
     }
     printDataCar() {
         console.log(this.driver);

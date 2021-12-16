@@ -1,4 +1,4 @@
-class Acount{
+class Account{
     constructor(name, document){
         this.id;
         this.name = name;
