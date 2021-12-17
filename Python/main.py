@@ -8,11 +8,3 @@ if __name__ == "__main__":
     uberX = UberX("AMX323", Account("Marcos Cruz", "ASGF3245"), "Chevrolet", "Spark")
     print(vars(uberX))
     print(vars(uberX.driver))
-    # car.license = "XAN321"
-    # car.driver = "Andres Herrera"
-
-    # car2 = Car("XAW324", Account("Mario Gonzalez", "234BASD"))
-    # print(vars(car2))
-    # print(vars(car2.driver))
-    # # car2.license = "ZYZ323"
-    # # car2.driver = "Maria Herrera"
